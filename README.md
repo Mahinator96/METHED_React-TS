@@ -1,6 +1,6 @@
 <h1 style='text-align: center'>METHED: React & TS</h1>
 
-## Навигация
+<h2>Навигация</h2> 
 
 Все уроки разбиты по папкам и имеют название: "Lesson-_XX_"
 
