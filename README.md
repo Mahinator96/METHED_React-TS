@@ -1,4 +1,4 @@
-# METHED: React & TypeScript
+<h1 style='text-align: center'>METHED: React & TS</h1>
 
 ## Навигация
 
