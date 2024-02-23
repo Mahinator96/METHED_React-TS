@@ -7,17 +7,15 @@ import Search from "./Search";
 import Heading from "./Heading";
 import Auth from "./Auth";
 
-export const Header = (props) => {
-  return (
-    <header className={style.header}>
-      <Layout>
-        <div className={style.gridContainer}>
-          <Logo />
-          <Heading text="Blogget" />
-          <Search />
-          <Auth auth="Женя" />
-        </div>
-      </Layout>
-    </header>
-  );
-};
+export const Header = (props) => (
+  <header className={style.header}>
+    <Layout>
+      <div className={style.gridContainer}>
+        <Logo />
+        <Heading text="Blogget" />
+        <Search />
+        <Auth auth="Женя" />
+      </div>
+    </Layout>
+  </header>
+);
