@@ -1,7 +1,7 @@
-import React from "react";
-import style from "./Heading.module.css";
+import React from 'react';
+import style from './Heading.module.css';
 
-import propTypes from "prop-types";
+import propTypes from 'prop-types';
 
 export const Heading = ({ text }) => (
   <div className={style.heading}>{text}</div>

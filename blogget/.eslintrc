@@ -146,7 +146,7 @@
     "no-array-constructor": "error",
     "no-mixed-spaces-and-tabs": "error",
     "no-multiple-empty-lines": [
-      "error",
+      "warn",
       {
         "max": 2
       }

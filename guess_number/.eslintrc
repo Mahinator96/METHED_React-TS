@@ -88,13 +88,13 @@
     "no-with": "error",
     "prefer-promise-reject-errors": "error",
     "no-unused-vars": [
-      "error",
+      "warn",
       {
         "args": "none"
       }
     ],
     "array-bracket-newline": "off",
-    "array-bracket-spacing": ["error", "never"],
+    "array-bracket-spacing": ["warn", "always"],
     "array-element-newline": "off",
     "block-spacing": ["error", "never"],
     "brace-style": "error",
@@ -134,7 +134,7 @@
     "key-spacing": "error",
     "keyword-spacing": "error",
     "max-len": [
-      "error",
+      "warn",
       {
         "code": 80,
         "tabWidth": 2,
