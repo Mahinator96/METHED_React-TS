@@ -14,7 +14,7 @@ export const Header = (props) => (
         <Logo />
         <Heading text='Blogget' />
         <Search />
-        <Auth auth='Женя' />
+        <Auth />
       </div>
     </Layout>
   </header>
