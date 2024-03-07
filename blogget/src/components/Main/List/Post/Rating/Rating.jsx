@@ -4,13 +4,11 @@ import { Text } from '../../../../../UI/Text';
 
 export const Rating = ({ ups }) => (
   <Text As='div' className={style.rating}>
-    <Text As='button' className={style.up} aria-label='Повысить рейтинг' />
+    <button className={style.up} aria-label='Повысить рейтинг' />
 
-    <Text As='p' className={style.ups}>
-      {ups}
-    </Text>
+    <p className={style.ups}>{ups}</p>
 
-    <Text As='button' className={style.down} aria-label='Понизить рейтинг' />
+    <button className={style.down} aria-label='Понизить рейтинг' />
   </Text>
 );
 

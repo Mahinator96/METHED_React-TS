@@ -57,15 +57,10 @@ export const Tabs = () => {
       )}
 
       {(isDropDownOpen || !isDropDown) && (
-        <Text
-          As='ul'
-          className={style.list}
-          onClick={() => setIsDropDownOpen(false)}
-        >
+        <ul className={style.list} onClick={() => setIsDropDownOpen(false)}>
           {LIST.map(({ value, id, Icon }) => (
-            <Text As='li' className={style.item} key={id}>
-              <Text
-                As='button'
+            <li className={style.item} key={id}>
+              <button
                 className={style.btn}
                 href='/'
                 onClick={() => {
@@ -74,10 +69,10 @@ export const Tabs = () => {
               >
                 {value}
                 {Icon && <Icon width={30} height={30} />}
-              </Text>
-            </Text>
+              </button>
+            </li>
           ))}
-        </Text>
+        </ul>
       )}
     </Text>
   );
